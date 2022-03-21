@@ -12,7 +12,9 @@ export default function MyApp({ Component, pageProps }) {
     >
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>My awesome blog</title>
+        <title>Fetudy</title>
+        <meta name="description" content="Fetudy, 프론트앤드 스터디의 CS 지식 블로그입니다."/>  
+        <meta name="keywords" content="Fetudy, CS , front-end , study , javascript"/>
       </Head>
 
       <Header />
