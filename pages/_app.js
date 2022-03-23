@@ -15,6 +15,7 @@ export default function MyApp({ Component, pageProps }) {
         <title>Fetudy</title>
         <meta name="description" content="Fetudy, 프론트앤드 스터디의 CS 지식 블로그입니다."/>  
         <meta name="keywords" content="Fetudy, CS , front-end , study , javascript"/>
+        <meta name="google-site-verification" content="FwAppLiDquICv1Y6b9kG5dDvCV95kjtxLymjHBciUw8" />
       </Head>
 
       <Header />
