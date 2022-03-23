@@ -1,27 +1,8 @@
-import React from 'react'
-import * as fs from 'fs'
 const Sitemap = () => {
   return null
 }
 
 export const getServerSideProps = async ({ res }) => {
-  // const BASE_URL = 'https://fetudy-blog.vercel.app'
-
-  // const staticPaths = fs
-  //   .readdirSync('pages')
-  //   .filter((staticPage) => {
-  //     return !['_app.js', '_document.js', 'sitemap.xml.js'].includes(staticPage)
-  //   })
-  //   .map((staticPagePath) => {
-  //     return `${BASE_URL}/${staticPagePath}`
-  //   })
-
-  // const dynamicPaths = fs.readdirSync('_posts').map((post) => {
-  //   return `${BASE_URL}/${post.substring(0, post.length - 3)}`
-  // })
-
-  // const allPaths = [...staticPaths, ...dynamicPaths]
-
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <urlset
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
